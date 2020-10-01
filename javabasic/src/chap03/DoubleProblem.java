@@ -21,7 +21,6 @@ public class DoubleProblem {
 		System.out.println(r1);
 		System.out.println(r2);
 		System.out.println(r1 + 2);
-		
 	}
 }
 
