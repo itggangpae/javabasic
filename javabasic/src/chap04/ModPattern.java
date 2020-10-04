@@ -3,8 +3,7 @@ package chap04;
 public class ModPattern {
 
 	public static void main(String[] args) {
-		//빨강, 파랑, 노랑 을 순서대로 1초마다 출력
-		
+		//라투, 오미크론, 다크스펙터, 오미크론 을 순서대로 1초마다 출력
 		int i = 0;
 		for(;;) {
 			try {

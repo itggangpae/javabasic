@@ -1,6 +1,6 @@
 package chap04;
 
-public class Gugudan 
+public class MultiplicationTable 
 {
 	public static void main(String args[])
 	{
