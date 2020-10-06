@@ -10,9 +10,12 @@ public class SequentialSearch {
 		num = ar.length;
 
 		Scanner scanner = new Scanner(System.in);
+
 		System.out.print("찾고자 하는 숫자를 2자리로 입력하세요: ");
 		key = scanner.nextInt();
-		
+
+		scanner.close();
+
 		for (i = 0; i < num; i++) {
 			if (ar[i] == key) {
 				index = i + 1;
@@ -26,6 +29,5 @@ public class SequentialSearch {
 		else {
 			System.out.println("찾는 값은 " + index + "번째에 있습니다.");
 		}
-		scanner.close();
 	}
 }

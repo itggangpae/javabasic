@@ -3,7 +3,7 @@ package chap05;
 public class StringArray {
 
 	public static void main(String[] args) {
-		//String 객체의 주소 3개를 저장할 수 있는 배열을 생성
+		//String 객체의 주소 5개를 저장할 수 있는 배열을 생성
 		String [] names = new String[5];
 		//데이터 대입
 		names[0] = "데니스 리치히";
