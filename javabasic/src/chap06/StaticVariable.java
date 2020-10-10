@@ -14,7 +14,7 @@ public class StaticVariable {
 		System.out.println("obj1의 선생님= " + obj1.teacher);
 		System.out.println("obj2의 선생님= " + obj2.teacher);
 		
-		//인스턴스가 변경해도 클래스나 다른 인스턴스가 공유하므로 모든 변경된 결과가 출력됩니다.
+		//인스턴스가 변경해도 클래스나 다른 인스턴스가 공유하므로 전부 변경된 결과가 출력됩니다.
 		obj1.teacher="남자현";
 		System.out.println("이름 변경 후");
 		System.out.println("Student의 선생님= " + Student2.teacher);

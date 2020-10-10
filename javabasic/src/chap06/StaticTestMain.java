@@ -3,9 +3,10 @@ package chap06;
 class StaticTest
 {
 	static private String message = "STATIC";
+	
 	public static String getString()
 	{
-		return message; // 여기서 만약 s1을 return하면 오류!
+		return message;
 	}
 }
 
@@ -13,6 +14,7 @@ public class StaticTestMain
 {
 	public static void main(String[] args)
 	{
+		//static 메소드는 인스턴스 생성없이 호출하는 것이 가능
 		System.out.println("message : "+StaticTest.getString());
 	}
 }

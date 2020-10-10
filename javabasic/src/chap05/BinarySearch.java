@@ -31,8 +31,6 @@ public class BinarySearch {
 				high = middle - 1;
 			}
 		}
-		
 		scanner.close();
 	}
 }
-

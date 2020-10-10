@@ -8,4 +8,3 @@ public class ConstructorTest {
 		Obj2.disp();
 	}
 }
-
