@@ -22,7 +22,7 @@ public class Company {
 		name = scanner.next();
 		System.out.print("부서를 입력하세요:");
 		part = scanner.next();
-		System.out.print("직책을 입력하세요(1.사원 2.관리자:");
+		System.out.print("직책을 입력하세요(1.사원 2.관리자):");
 		position = scanner.next();
 		
 
