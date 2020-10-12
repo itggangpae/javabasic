@@ -29,7 +29,6 @@ public class Outer {
 		Outer ou = new Outer(); // 결과 : Outer의 생성자
 		// ou.method(); //Inner의 메서드를 바로 접근 불가.
 		Outer.Inner in = ou.new Inner(); // 결과 : Inner 생성자
-		in.method(); // 결과 : Inner의 메서드0
-						// 결과 : test호출0
+		in.method(); // 결과 : Inner의 메서드
 	}
 }
