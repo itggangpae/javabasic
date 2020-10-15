@@ -31,6 +31,9 @@ public class UserException
 			System.out.print("모든 예외 처리 루틴 : ");
 			System.out.println(e + " 발생");    
 		}
+		finally {
+			in.close();
+		}
 	}
 }
 
