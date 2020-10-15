@@ -2,7 +2,7 @@ package chap06;
 
 public class AccessorMethod {
 	public static void main(String[] args) {
-		Student5 obj = new Student5();
+		Student6 obj = new Student6();
 		obj.setName("지수");
 		obj.setKor(90);
 		obj.setEng(87);

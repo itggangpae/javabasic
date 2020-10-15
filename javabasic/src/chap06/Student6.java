@@ -38,13 +38,6 @@ public class Student6 {
 		eng = n2;
 		mat = n3;
 	}
-	
-	//메소드 오버로딩
-	public void set(int n1, int n2, int n3) {
-		kor = n1;
-		eng = n2;
-		mat = n3;
-	}
 
 	//내부에서만 사용할 메소드로 kor, mat, eng 의 평균을 구한 후 실수로 리턴하는 메소드
 	private double calc() {
