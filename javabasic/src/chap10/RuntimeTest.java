@@ -8,7 +8,7 @@ public class RuntimeTest {
 			System.out.println("r1의 해시코드:" + r1.hashCode());
 			System.out.println("r2의 해시코드:" + r2.hashCode());
 			
-			//Windows에서 실
+			//Windows에서 실행
 			//Runtime.getRuntime().exec("notepad.exe " + "c:\\eula.1028.txt");
 			
 			//Mac에서 실행 - Mac은 사용 권한 문제로애플리케이션을 직접 열지 못할 수 도 있음

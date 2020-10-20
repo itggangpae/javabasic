@@ -15,4 +15,3 @@ class AutoBoxing
 		System.out.println("j:" + j);
 	}
 }
-
