@@ -1,6 +1,7 @@
 package chap13;
 
 import java.io.File;
+import java.util.Date;
 
 public class FileInfo {
 	public static void main(String args[]) {
@@ -16,6 +17,8 @@ public class FileInfo {
 			str = "해당파일이 존재하지 않습니다.";
 		}
 		System.out.println(str);
+		Date date = new Date(file.lastModified());
+		System.out.println("마지막 수정일:" + date);
 		System.out.println("==================");
 		// 프로젝트 디렉토리의 모든 내용 출력
 		File dir = new File("./");
