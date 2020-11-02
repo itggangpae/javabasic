@@ -1,8 +1,5 @@
 package chap15;
 
-import java.util.function.Consumer;
-import java.util.function.Function;
-
 //매개변수가 없고 리턴타입이 없는 메소드를 소유한 인터페이스
 interface NoArgNoReturn{
 	public void method1();

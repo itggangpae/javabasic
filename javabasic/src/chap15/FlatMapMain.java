@@ -9,6 +9,7 @@ public class FlatMapMain {
 		List<String> list = Arrays.asList("java8 lambda", "stream mapping");
 		list.stream().flatMap(data -> Arrays.stream(data.split(" "))).forEach(word -> System.out.println(word));
 
+		System.out.println("========================");
 		Stream<String[]> ar = Stream.of(new String[] { "베이브루스", "루게릭", "타이콥" },
 				new String[] { "사이영", "랜디존슨", "페드로마르티네스" });
 		Stream<String> stream = ar.flatMap(Arrays::stream);

@@ -9,7 +9,7 @@ import java.util.Random;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-//컬렉션의 다양한 접근
+//컬렉션의 다양한 생성
 public class StreamCreate {
 
 	public static void main(String[] args) {
