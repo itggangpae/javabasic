@@ -1,4 +1,4 @@
-package designpattern.builder;
+package designpattern;
 
 public class TextBuilder extends Builder {
     private StringBuilder buffer = new StringBuilder();           //문서 구축

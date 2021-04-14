@@ -1,4 +1,4 @@
-package designpattern.singleton;
+package designpattern;
 
 class OnlyOne {
 	static OnlyOne obj = null;

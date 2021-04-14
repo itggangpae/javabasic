@@ -1,4 +1,4 @@
-package designpattern.prototype.framework;
+package designpattern;
 import java.util.*;
 
 public class Manager {

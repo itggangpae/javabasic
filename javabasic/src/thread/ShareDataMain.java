@@ -10,7 +10,7 @@ public class ShareDataMain {
 		th2.start();
 		
 		try{
-			Thread.sleep(30000);
+			Thread.sleep(10000);
 		}
 		catch(Exception e){}
 		

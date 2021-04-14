@@ -1,4 +1,4 @@
-package designpattern.prototype.framework;
+package designpattern;
 import java.lang.Cloneable;
 
 public interface Product extends Cloneable {

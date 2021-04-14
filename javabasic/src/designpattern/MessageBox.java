@@ -1,5 +1,4 @@
-package designpattern.prototype;
-import designpattern.prototype.framework.*;
+package designpattern;
 
 public class MessageBox implements Product {
     private char decochar;

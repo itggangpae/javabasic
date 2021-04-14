@@ -9,13 +9,12 @@ public class ShareData implements Runnable {
 	}
 
 	private void sum() {
-		for (int i = 0; i < 10000; i++) {
-			synchronized (this) {
-				idx++;
-				try {
-					Thread.sleep(1);
-				} catch (InterruptedException e) {
-				}
+		for (int i = 0; i < 1000; i++) {
+			synchronized (this) {idx++;
+			try {
+				Thread.sleep(1);
+			} catch (InterruptedException e) {
+			}
 				result += idx;
 			}
 		}

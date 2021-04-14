@@ -1,4 +1,4 @@
-package designpattern.factory;
+package designpattern;
 
 interface DB{
 	public void disp();
@@ -31,7 +31,7 @@ class RDBMSFactory{
 	}
 }
 
-public class FactoryMain {
+public class FactoryPattern {
 	public static void main(String[] args) {
 		DB db = RDBMSFactory.dbFactory("Oracle");
 		db.disp();

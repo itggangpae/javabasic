@@ -1,4 +1,4 @@
-package designpattern.builder;
+package designpattern;
 
 //문서를 만드는 클래스
 public class Director {

@@ -1,4 +1,4 @@
-package designpattern.builder;
+package designpattern;
 
 import java.io.*;
 

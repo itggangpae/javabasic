@@ -1,5 +1,4 @@
-package designpattern.prototype;
-import designpattern.prototype.framework.*;
+package designpattern;
 
 public class UnderlinePen implements Product {
     private char ulchar;
