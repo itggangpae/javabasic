@@ -1,4 +1,4 @@
-package designpattern.iterator;
+package designpattern;
 
 public class SongShelfIterator implements Iterator {
     private SongShelf songShelf;
@@ -22,4 +22,6 @@ public class SongShelfIterator implements Iterator {
         index++;
         return book;
     }
+
+
 }

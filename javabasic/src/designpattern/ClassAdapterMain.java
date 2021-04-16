@@ -1,5 +1,6 @@
-package designpattern.adapter;
+package designpattern;
 
+/*
 class PrevSystem {
 	public void prevProcess() {
 		System.out.println("예전 처리 내용");
@@ -24,3 +25,4 @@ public class ClassAdapterMain {
 		target.process();
 	}
 }
+*/

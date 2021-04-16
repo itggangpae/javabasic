@@ -1,4 +1,4 @@
-package designpattern.iterator;
+package designpattern;
 
 public interface Iterator {
     public abstract boolean hasNext();

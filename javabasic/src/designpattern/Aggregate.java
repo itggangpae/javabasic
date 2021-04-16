@@ -1,4 +1,4 @@
-package designpattern.iterator;
+package designpattern;
 
 public interface Aggregate {
     public abstract Iterator iterator();

@@ -1,4 +1,4 @@
-package designpattern.adapter;
+package designpattern;
 
 abstract class BeforeTarget {
 	abstract void process();

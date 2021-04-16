@@ -1,4 +1,4 @@
-package designpattern.template;
+package designpattern;
 
 abstract class SmartPhone {
 	public abstract void tel();

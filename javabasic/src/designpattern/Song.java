@@ -1,4 +1,4 @@
-package designpattern.iterator;
+package designpattern;
 
 public class Song {
 	private String title;
