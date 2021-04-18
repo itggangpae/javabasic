@@ -10,7 +10,7 @@ class SeleniumDaum {
 	private WebDriver driver;
 	// Properties
 	public static final String WEB_DRIVER_ID = "webdriver.chrome.driver";
-	public static final String WEB_DRIVER_PATH = "/Users/munseokpark/Documents/chromedriver";
+	public static final String WEB_DRIVER_PATH = "/Users/adam/Documents/chromedriver";
 
 	public SeleniumDaum() {
 		super();

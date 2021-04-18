@@ -9,7 +9,7 @@ class SeleniumTest{
 	// Properties
 	public static final String WEB_DRIVER_ID = "webdriver.chrome.driver";
 	//자신의 크롬 드라이버 위치로 설정
-	public static final String WEB_DRIVER_PATH = "/Users/munseokpark/Documents/chromedriver";
+	public static final String WEB_DRIVER_PATH = "/Users/adam/Documents/chromedriver";
 	// 크롤링 할 URL
 	private String base_url;
 	public SeleniumTest() {

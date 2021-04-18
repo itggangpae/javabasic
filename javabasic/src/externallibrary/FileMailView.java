@@ -1,7 +1,6 @@
 package externallibrary;
 
 import java.awt.GridLayout;
-import java.beans.EventHandler;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;

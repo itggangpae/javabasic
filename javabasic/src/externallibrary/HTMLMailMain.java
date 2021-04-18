@@ -15,7 +15,7 @@ public class HTMLMailMain {
 		htmlEmail.setSmtpPort(587);
 		htmlEmail.setAuthentication("ggangpae11", "cyberadam");
 		// 이미지 파일 생성
-		File logoFile = new File("/Users/munseokpark/Documents/lecture/자원/HIRO.jpeg");
+		File logoFile = new File("red3.jpg");
 
 		String rt = "Failure";
 

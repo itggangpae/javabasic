@@ -12,7 +12,7 @@ public class NaverCafeMacro {
 		try {
 		// Properties
 		final String WEB_DRIVER_ID = "webdriver.chrome.driver";
-		final String WEB_DRIVER_PATH = "/Users/munseokpark/Documents/chromedriver";
+		final String WEB_DRIVER_PATH = "/Users/adam/Documents/chromedriver";
 
 		// System Property SetUp
 		System.setProperty(WEB_DRIVER_ID, WEB_DRIVER_PATH);

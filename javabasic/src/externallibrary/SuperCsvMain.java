@@ -4,6 +4,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.supercsv.cellprocessor.ParseDate;
@@ -34,6 +35,7 @@ public class SuperCsvMain {
 				CsvPreference.STANDARD_PREFERENCE)) {
 			// 헤더 가져오기 - 첫번째 행의 데이터
 			String[] header = beanReader.getHeader(true);
+			System.out.println(Arrays.toString(header));
 			String[] header1 = {"name", "age", "birth", "email","nickname"};
 			// 두번째 행 부터 읽어오기
 			Player player = null;
