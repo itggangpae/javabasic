@@ -1,4 +1,4 @@
-package datatype;
+package operator;
 
 public class TypeCasting {
 	public static void main(String args[]) {
