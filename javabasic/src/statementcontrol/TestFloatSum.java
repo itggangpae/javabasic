@@ -1,4 +1,4 @@
-package controlstatement;
+package statementcontrol;
 
 public class TestFloatSum {
 	public static void main(String[] args) {

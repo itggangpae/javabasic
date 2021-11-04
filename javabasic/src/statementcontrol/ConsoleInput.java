@@ -1,4 +1,4 @@
-package controlstatement;
+package statementcontrol;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

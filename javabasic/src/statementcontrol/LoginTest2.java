@@ -1,4 +1,4 @@
-package controlstatement;
+package statementcontrol;
 
 import java.util.Scanner;
 public class LoginTest2 {

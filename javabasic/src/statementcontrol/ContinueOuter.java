@@ -1,4 +1,4 @@
-package controlstatement;
+package statementcontrol;
 
 public class ContinueOuter {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package controlstatement;
+package statementcontrol;
 
 public class TestLoop {
 
