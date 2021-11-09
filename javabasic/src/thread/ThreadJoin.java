@@ -28,7 +28,7 @@ public class ThreadJoin {
 		SumThread sumThread = new SumThread();
 		sumThread.start();
 		try {
-			sumThread.join(1000);
+			sumThread.join(10000);
 		} catch (InterruptedException e) {}
 		System.out.println("1~100 합: " + sumThread.getSum());
 	}
