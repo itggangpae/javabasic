@@ -10,7 +10,7 @@ public class UDPClient {
 
 		DatagramSocket dsoc = new DatagramSocket();
 
-		InetAddress ia = InetAddress.getByName("127.0.0.1");
+		InetAddress ia = InetAddress.getByName("192.168.10.32");
 		DatagramPacket dp = new DatagramPacket(msg.getBytes(),
 				msg.getBytes().length, ia, 7777);
 		dsoc.send(dp);

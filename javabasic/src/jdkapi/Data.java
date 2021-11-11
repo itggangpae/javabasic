@@ -34,6 +34,7 @@ class Data implements Comparable<Data> {
 	@Override
 	public String toString() {
 		return "Data [name=" + name + ", jumsu=" + jumsu + "]";
+		
 	}
 }
 

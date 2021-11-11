@@ -28,7 +28,7 @@ public class WebDownload {
 			out.close();
 			sock.close();
 		} catch (IOException e) {
-			System.out.println("데터 가져오기 실패 : " + e.getMessage());
+			System.out.println("데이터 가져오기 실패 : " + e.getMessage());
 		}
 	}
 }

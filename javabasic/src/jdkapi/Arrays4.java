@@ -1,14 +1,15 @@
 package jdkapi;
 
 import java.util.*;
-public class Main {
+public class Arrays4 {
 	public static void main(String[] args) {
-		Data [] data = {
+		Data data[] = {
 				new Data("lee", 1),
 				new Data("park", 2), 
 				new Data("kim", 3),
 		};
-		List <Data> list = Arrays.asList(data);
+		for(Data temp : data)
+			System.out.println(temp);
 		//Comparable 인터페이스를 implements 하지 않은 경우
 		Comparator<Data>comp = 
 				new Comparator<Data>(){
@@ -17,11 +18,9 @@ public class Main {
 						return o1.getName().compareTo(o2.getName());
 					}
 		};
-		list.sort(comp);
+		Arrays.sort(data, comp);
 		System.out.println("정렬 후");
 		for(Data temp : data)
 			System.out.println(temp);
 	}
 }
-
-		
