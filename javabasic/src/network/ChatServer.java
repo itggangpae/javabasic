@@ -1,8 +1,6 @@
 package network;
 import java.net.*;
 
-import network.ReceiveThread;
-import network.SendThread;
 
 public class ChatServer {
 	public static void main(String[] args) {

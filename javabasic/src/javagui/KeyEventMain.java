@@ -4,6 +4,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 class KeyEventTest extends Frame implements KeyListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	TextArea txt_info;
 	TextField txt;
 

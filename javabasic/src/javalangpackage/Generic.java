@@ -3,6 +3,7 @@ package javalangpackage;
 public class Generic <T>
 {
 	private T data[]; 
+	@SafeVarargs
 	public Generic(T...n){
 		data = n;
 	}

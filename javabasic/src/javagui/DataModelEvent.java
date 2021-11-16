@@ -51,6 +51,11 @@ class RemoveActionListener implements ActionListener
 
 
 public class DataModelEvent extends JFrame{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public DataModelEvent() {
 		String rows[][] = { { "윤석민", "야구" }, { "이동국", "축구" }, { "문성민", "배구" } };
 		String headers[] = { "이름", "종목" };

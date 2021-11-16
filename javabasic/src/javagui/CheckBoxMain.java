@@ -2,6 +2,11 @@ package javagui;
 
 import java.awt.*;
 class Checkbox1 extends Frame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public Checkbox1(String str){
 		super(str);
 		Panel p = new Panel();

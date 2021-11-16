@@ -5,6 +5,10 @@ import java.awt.Frame;
 import java.awt.Panel;
 
 public class ButtonFrame extends Frame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Button btn1, btn2, btn3;
 
 	public ButtonFrame(String str) {

@@ -1,6 +1,5 @@
 package java_basic;
 
-import java.util.Random;
 
 public class First
 {                               

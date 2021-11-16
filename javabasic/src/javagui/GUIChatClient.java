@@ -83,7 +83,8 @@ public class GUIChatClient extends JFrame implements Runnable, ActionListener{
 	public void run() {
 		try {
 			//Socket인스턴스 생성
-			Socket s = new Socket ("127.0.0.1", 5000);
+			@SuppressWarnings("resource")
+			Socket s = new Socket ("127.0.0.1", 5001);
 			//입출력Stream 얻어냄
 			input = new BufferedReader(
 					new InputStreamReader(s.getInputStream()));

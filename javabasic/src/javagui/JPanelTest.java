@@ -4,7 +4,11 @@ import javax.swing.JFrame;
 
 class JPanelTest extends JFrame{
     
-    public JPanel01 jpanel01 = null;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	public JPanel01 jpanel01 = null;
     public JPanel02 jpanel02 = null;
     
     public void change(String panelName){        // 패널 1번과 2번 변경 후 재설정

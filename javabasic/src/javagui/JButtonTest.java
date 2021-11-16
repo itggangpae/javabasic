@@ -3,6 +3,11 @@ package javagui;
 import javax.swing.*;
 public class JButtonTest extends JFrame 
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public JButtonTest() 
 	{
 		super("버튼 테스트");

@@ -3,6 +3,10 @@ package javagui;
 import java.awt.*;
 
 class LabelTest extends Frame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Panel p;
 	Label label1, label2, label3;
 

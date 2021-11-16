@@ -2,6 +2,8 @@ package javagui;
 import java.awt.* ;
 class TextFieldTest extends Frame 
 {
+	private static final long serialVersionUID = 1L;
+
 	public TextFieldTest(String str)	
 	{
 		super(str);

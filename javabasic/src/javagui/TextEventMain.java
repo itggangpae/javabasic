@@ -4,6 +4,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 class TextEventView extends Frame implements TextListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	TextField txt;
 	Label lbl;
 

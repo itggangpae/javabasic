@@ -7,7 +7,12 @@ import javax.swing.table.*;
 
 public class JTableTest extends JFrame
 {
-     public JTableTest()
+     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public JTableTest()
 	 {
          super("JTable 테스트");
          String title[] = {"번호", "이름", "나이"};

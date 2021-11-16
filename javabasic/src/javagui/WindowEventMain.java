@@ -4,6 +4,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 class WindowEventView extends Frame implements WindowListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	public WindowEventView(String str) {
 		super(str);
 		addWindowListener(this);

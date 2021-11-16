@@ -5,6 +5,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 class ActionEvent5 extends Frame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	TextField text;
 	Button btn;
 	Choice combo;

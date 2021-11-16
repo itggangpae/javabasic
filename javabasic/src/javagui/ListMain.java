@@ -3,6 +3,10 @@ package javagui;
 import java.awt.*;
 class ListTest extends Frame
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Panel p;
 	List list;
 	public ListTest(String str)

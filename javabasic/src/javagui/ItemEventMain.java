@@ -4,6 +4,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 class ItemEventView extends Frame implements ItemListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Choice lst_1, lst_2;
 	Label lbl_info;
 

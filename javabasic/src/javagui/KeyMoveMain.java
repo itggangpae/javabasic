@@ -4,6 +4,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 class KeyMove extends Frame implements KeyListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Label label = new Label("@");
 	int x = 100;
 	int y = 100;

@@ -3,6 +3,11 @@ package javagui;
 import java.awt.*;
 class BorderLayoutTest extends Frame 
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public BorderLayoutTest(String str) 
 	{
 		super(str);

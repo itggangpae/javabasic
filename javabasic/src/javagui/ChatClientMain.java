@@ -1,7 +1,5 @@
 package javagui;
 
-import javagui.GUIChatClient;
-
 public class ChatClientMain {
 	public static void main(String[] args) {
 		GUIChatClient client  = new GUIChatClient();

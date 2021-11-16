@@ -4,6 +4,10 @@ import java.awt.*;
 import java.awt.event.*;
 class ActionEvent1 extends Frame implements ActionListener 
 { 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Label lbl;
 	Button btn;
 	public ActionEvent1(String str) 

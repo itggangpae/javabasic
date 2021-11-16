@@ -4,7 +4,12 @@ import java.awt.*;
 import javax.swing.*;
 
 class JTable1 extends JPanel{
-    public JTable1(){
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public JTable1(){
         String title[] = {"번호", "이름", "나이"};
         String data[][] = {
             {"1","박문석", "40"},
@@ -17,7 +22,12 @@ class JTable1 extends JPanel{
     }
 }
 class JTable2 extends JPanel {
-  public JTable2(){
+  /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+public JTable2(){
        String title[] = {"번호", "직업", "소속"};
         String data[][] = {
             {"1","프로그래머", "프리랜서"},
@@ -31,7 +41,11 @@ class JTable2 extends JPanel {
 }
 
 public class JTabbedPaneTest extends JFrame{
-     JTabbedPane tab;
+     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	JTabbedPane tab;
      JTable1 j1;
 	 JTable2 j2;
      public JTabbedPaneTest()

@@ -6,7 +6,11 @@ import javax.swing.border.*;
 
 public class JTextTest extends JFrame 
 {
-   JLabel lbl,la1,la2;
+   /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+JLabel lbl,la1,la2;
    JTextField id;
    JPasswordField passwd;
    JPanel idPanel,paPanel,loginPanel;

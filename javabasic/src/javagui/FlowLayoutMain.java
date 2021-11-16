@@ -4,6 +4,10 @@ import java.awt.*;
 
 class FlowLayoutTest extends Frame 
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	FlowLayout f = new FlowLayout();
 	Button btn[] = new Button[10];
 	public FlowLayoutTest(String str)

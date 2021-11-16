@@ -1,7 +1,5 @@
 package javagui;
 
-import javax.swing.JFrame;
-
 public class SwingMain {
 	public static void main(String[] args)
 	{
@@ -9,25 +7,25 @@ public class SwingMain {
 
 		//new JTextTest();	
 
-		//ComboList obj = new ComboList();
-		//obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		//ComboList comboList = new ComboList();
+		//comboList.setDefaultCloseOperation(javax.swing.JFrame.EXIT_ON_CLOSE);
 
 		//BoxLayoutTest box = new BoxLayoutTest();
-		//box.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		//box.setDefaultCloseOperation(javax.swing.JFrame.EXIT_ON_CLOSE);
 
 		//JTableTest jtable = new JTableTest();
-		//jtable.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		//jtable.setDefaultCloseOperation(javax.swing.JFrame.EXIT_ON_CLOSE);
 
 		//JTabbedPaneTest jt= new JTabbedPaneTest();
-		//jt.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		//jt.setDefaultCloseOperation(javax.swing.JFrame.EXIT_ON_CLOSE);
 		
 		//new JOptionPaneTest();
 		
-		//new	JFileChooserTest();	
+		//new JFileChooserTest();	
 		
 		//new JColorChooserTest();
 		
-	    //  new JMenuTest();      
+	    //new JMenuTest();      
 		
 		//new JPopupTest();
 		

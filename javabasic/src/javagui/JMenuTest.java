@@ -3,6 +3,10 @@ package javagui;
 import javax.swing.*;
 public class JMenuTest extends JFrame 
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JRadioButtonMenuItem colorItems[], fonts[];
 	private JCheckBoxMenuItem styleItems[];
 	private ButtonGroup fontGroup, colorGroup;

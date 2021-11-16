@@ -6,6 +6,10 @@ import javax.swing.filechooser.*;
 import java.io.*;
 
 class JFileChooserTest extends JFrame implements ActionListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	JFileChooser fc;
 	public JFileChooserTest()
 	{

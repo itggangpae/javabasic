@@ -4,6 +4,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 class CardLayoutTest extends Frame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8283541129891629945L;
 	CardLayout card = new CardLayout();
 	Panel panel[] = new Panel[5];
 	Color color[] = { Color.red, Color.blue, Color.yellow, Color.green, Color.cyan };

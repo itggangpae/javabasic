@@ -3,6 +3,8 @@ package javagui;
 import java.awt.*;
 
 class MenuTest extends Frame {
+	private static final long serialVersionUID = 1L;
+
 	public MenuTest(String str) {
 		super(str);
 		MenuBar mb = new MenuBar();

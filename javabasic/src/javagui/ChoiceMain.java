@@ -3,6 +3,10 @@ package javagui;
 import java.awt.* ;
 class ChoiceTest extends Frame 
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Choice ch;
 	public ChoiceTest(String str)
 	{

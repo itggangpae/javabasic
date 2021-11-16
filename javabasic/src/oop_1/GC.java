@@ -7,6 +7,7 @@ public class GC {
 	}
 	public static void main(String[] args) {
 		GC obj = new GC();
+		System.out.println(obj);
 		obj = null;
 		System.gc();
 	}

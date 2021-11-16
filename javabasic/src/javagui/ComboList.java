@@ -4,6 +4,10 @@ import java.awt.*;
 import javax.swing.*;
 
 public class ComboList extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	JPanel p, p1, p2;
 	JList<String> jl;
 	JComboBox<String> com;

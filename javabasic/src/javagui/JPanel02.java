@@ -6,7 +6,11 @@ import javax.swing.*;
 
 
 class JPanel02 extends JPanel{        // 2번째 패널
-    private JTextField textField;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private JTextField textField;
     private JPasswordField passwordField;
     private JPanelTest win;
     

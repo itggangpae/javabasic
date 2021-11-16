@@ -3,6 +3,11 @@ import java.awt.*;
 import java.awt.event.*;
 
 class MoustEventView extends Frame implements MouseListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public MoustEventView(String str) {
 		super(str);
 		addMouseListener(this);

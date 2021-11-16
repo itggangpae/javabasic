@@ -2,6 +2,11 @@ package javagui;
 
 import java.awt.*;
 class FlickeringLabel extends Label implements Runnable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public FlickeringLabel(String text) {
 		super(text);
 		Thread th = new Thread(this);
@@ -28,6 +33,11 @@ class FlickeringLabel extends Label implements Runnable{
 }
 
 class FlickeringLabelEx extends Frame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public FlickeringLabelEx() {
 		setTitle("FlickeringLabelEx 예제");
 	

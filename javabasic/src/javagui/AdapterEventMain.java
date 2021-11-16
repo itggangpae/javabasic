@@ -4,6 +4,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 class AdapterView extends Frame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Button btn1;
 	Button btn2;
 	public TextField text;

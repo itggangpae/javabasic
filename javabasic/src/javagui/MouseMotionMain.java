@@ -4,6 +4,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 class MouseMotionEventTest extends Frame implements MouseMotionListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Label lbl;
 
 	public MouseMotionEventTest(String str) {

@@ -34,6 +34,7 @@ public class ObjectSerialize {
 
 			fis = new FileInputStream("./object.dat");
 			ois = new ObjectInputStream(fis);
+			@SuppressWarnings("unchecked")
 			List<Data> result = (List<Data>) ois.readObject();
 			System.out.println(result);
 		} catch (IOException e) {

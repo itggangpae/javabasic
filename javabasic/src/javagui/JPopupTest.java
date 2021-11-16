@@ -9,7 +9,11 @@ import javax.swing.JPopupMenu;
 
 public class JPopupTest extends JFrame 
 {
-   JMenuItem items[];
+   /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+JMenuItem items[];
    public JPopupTest()
    {
       super( "JPopupMenu연습예제" );

@@ -4,6 +4,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 class CheckBoxEvent extends Frame implements ItemListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Panel panel;
 	Checkbox ckb1, ckb2, ckb3, ckb4;
 	TextArea ta;

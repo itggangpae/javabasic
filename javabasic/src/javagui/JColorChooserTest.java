@@ -2,11 +2,14 @@ package javagui;
 
 import java.awt.*;
 import java.awt.event.*;
-import java.io.*;
 import javax.swing.*;
 
 public class JColorChooserTest extends JFrame implements ActionListener
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	JLabel lbl;
 	JButton btn;
 	public JColorChooserTest()
@@ -25,11 +28,10 @@ public class JColorChooserTest extends JFrame implements ActionListener
 	{
 		if(e.getActionCommand()=="색상 대화 상자 호출")
 		{
-			JColorChooser color = new JColorChooser();
 			Color rgb=JColorChooser.showDialog(this,"색상 선택", Color.CYAN);
 			lbl.setText("색상:" + rgb);
 			btn.setBackground(rgb);
 		}
 	}	
-	}
+}
 

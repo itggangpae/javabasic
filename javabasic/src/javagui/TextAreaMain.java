@@ -2,6 +2,11 @@ package javagui;
 import java.awt.* ;
 
 class TextAreaTest extends Frame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public TextAreaTest(String str){
   		super(str);
 		Panel p = new Panel();

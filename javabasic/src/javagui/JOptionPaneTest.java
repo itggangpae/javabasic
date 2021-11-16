@@ -5,6 +5,10 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class JOptionPaneTest extends JFrame implements ActionListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	JButton btn[] = new JButton[4];
 	String[] str = { "로그인", "회원가입" };
 

@@ -3,6 +3,10 @@ package javagui;
 import java.awt.*;
 class GridLayoutTest extends Frame 
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Button btn[] = new Button[6];
 	public GridLayoutTest(String str) 
 	{

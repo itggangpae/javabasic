@@ -7,6 +7,10 @@ import javax.swing.*;
 
 class JPanel01 extends JPanel {  // 1번째 패널
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JButton jButton1;
 	private JScrollPane jScrollPane1;
 	private JTextArea jTextArea1;
