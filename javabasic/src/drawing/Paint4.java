@@ -5,6 +5,10 @@ import java.awt.geom.*;
 import javax.swing.*;
 class Java2DTest extends JFrame
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Rectangle2D.Double rect;
 	Ellipse2D.Double circle;
 	Line2D.Double line;	

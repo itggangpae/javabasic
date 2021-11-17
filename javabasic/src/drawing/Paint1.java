@@ -4,6 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 class GraphicTest extends JFrame  
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	public GraphicTest(String str) 
 	{
 		super(str);    

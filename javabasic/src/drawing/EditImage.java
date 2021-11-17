@@ -13,6 +13,10 @@ enum ImageTask{
 
 class ImageEditing extends Frame
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Image img ;		
 	EditCanvas xcanvas;
 	Button[] btn = new Button[7];
@@ -21,7 +25,7 @@ class ImageEditing extends Frame
 
 	ImageTask message = ImageTask.BASIC ;
 
-	String s = "image1.png" ; // 초기 이미지
+	String s = "aespa.jpeg" ; // 초기 이미지
 
 	public ImageEditing(String title){  
 		super(title);
@@ -53,6 +57,10 @@ class ImageEditing extends Frame
 }
 
 class EditCanvas extends Canvas {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	ImageEditing imageTest;
 	
 	public EditCanvas(ImageEditing imageTest) {

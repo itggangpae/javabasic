@@ -5,6 +5,10 @@ import java.awt.*;
 import javax.swing.*;
 
 class ClippingTest extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Container contentPane;
 	public ClippingTest() {
 		setTitle("클리핑 예제");
@@ -16,6 +20,11 @@ class ClippingTest extends JFrame {
 		setVisible(true);
 	}
 	class MyPanel extends JPanel {
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
+
 		public void paintComponent(Graphics g) {
 			super.paintComponent(g);
 			g.setClip(50, 20, 150, 150);

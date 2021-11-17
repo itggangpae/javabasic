@@ -4,8 +4,12 @@ import java.awt.*;
 import java.awt.event.*;
 
 class ImageTest extends Frame{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Image img ;
-	String s = "image1.png" ;
+	String s = "aespa.jpeg" ;
 	public ImageTest(String title)
 	{
 		super(title);

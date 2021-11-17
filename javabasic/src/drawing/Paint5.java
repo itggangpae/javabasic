@@ -6,6 +6,10 @@ import java.awt.geom.*;
 import javax.swing.JFrame;
 
 class Graphics2DTest1 extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	public Graphics2DTest1() 
 	{
 		super( "Graphics2D 연습" );

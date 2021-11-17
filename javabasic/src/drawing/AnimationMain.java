@@ -3,15 +3,17 @@ package drawing;
 import java.awt.*;
 import java.awt.event.*;
 class ImageAnimationTest extends Frame {	
+
+	private static final long serialVersionUID = 1L;
 	Image img[] = new Image[10];
 	int num = 0 ;
 	public ImageAnimationTest(String title){
 		super(title);
 		for(int i = 0 ; i < 4 ; i++){
-			img[i] = Toolkit.getDefaultToolkit().getImage("image"+(i+1)+".png");
+			img[i] = Toolkit.getDefaultToolkit().getImage("aespa"+(i)+".jpeg");
 		}		
 		addWindowListener(new WindowHandler());
-		setSize(800,600);
+		setSize(201,251);
 		setVisible(true);
 	}
 	public void paint(Graphics g){

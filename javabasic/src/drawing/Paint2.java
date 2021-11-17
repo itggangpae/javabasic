@@ -5,6 +5,10 @@ import java.awt.event.*;
 import javax.swing.*;
 class ColorTest extends JPanel 
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Color c = new Color( 0, 0, 255 ); 
 	public void paint( Graphics g )
 	{
@@ -16,6 +20,11 @@ class ColorTest extends JPanel
 }
 
 class ColorFrame extends JFrame{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public ColorFrame(){
 		super("색상 테스트");
 		ColorTest p = new ColorTest();
@@ -64,6 +73,6 @@ class MenuEvent implements ActionListener
 
 public class Paint2 {
 	public static void main(String[] args) {
-		ColorFrame frame = new ColorFrame();
+		new ColorFrame();
 	}
 }

@@ -4,6 +4,10 @@ import java.awt.*;
 import javax.swing.*;
 class XCanvas extends Canvas 
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Font font = null;
 	public void paint(Graphics g) 
 	{

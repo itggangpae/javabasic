@@ -7,6 +7,10 @@ import java.awt.event.*;
 import java.util.List;
 
 class PaintMain extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Container contentPane;
 	public PaintMain() {
 		setTitle("Drawing Line by Mouse 예제");
@@ -18,6 +22,10 @@ class PaintMain extends JFrame {
 		setVisible(true);
 	}
 	class MyPanel extends JPanel {
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
 		List<Point> vs = new ArrayList<Point>();
 		List<Point> ve = new ArrayList<Point>();
 
