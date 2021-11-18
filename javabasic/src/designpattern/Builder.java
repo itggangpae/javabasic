@@ -1,8 +1,0 @@
-package designpattern;
-//문서를 만들 메소드를 소유한 클래스
-public abstract class Builder {
-    public abstract void makeTitle(String title);
-    public abstract void makeString(String str);
-    public abstract void makeItems(String[] items);
-    public abstract void close();
-}
