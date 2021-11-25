@@ -1,4 +1,4 @@
-package drawing;
+package multimedia;
 
 import javax.swing.*;
 import java.awt.*;

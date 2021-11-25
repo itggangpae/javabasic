@@ -1,4 +1,4 @@
-package drawing;
+package multimedia;
 
 import java.awt.*;
 import java.awt.geom.*;
