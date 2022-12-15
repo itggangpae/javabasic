@@ -1,5 +1,5 @@
 package datatype;
-class CharTest {
+class CharOP {
 	public static void main(String args[]) {
 		char ch = 'A';
 		System.out.println("ch = " + ch);

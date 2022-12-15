@@ -48,5 +48,3 @@ public class Shift {
 		System.out.println(Integer.toBinaryString(temp));
 	}
 }
-
-

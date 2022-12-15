@@ -15,4 +15,3 @@ public class Error {
 		System.out.println(c);
 	}
 }
-
